@@ -129,7 +129,7 @@ main {
     right: 0;
     bottom: 0;
     left: 0;
-    transform: translateX(130%);    
+    transform: translateX(160%);    
 }
 
 .nuevoEventoZelda {
@@ -138,7 +138,7 @@ main {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(150%, -52%);    
+    transform: translate(200%, -52%);    
 }
 
 .nuevoEventoZelda.manifiestate {
