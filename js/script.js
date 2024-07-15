@@ -95,34 +95,6 @@ document.getElementById('nuevoEventoForm').addEventListener('submit', function (
 
 });
 
-
-// MUESTRA los <article> on Scroll
-
-let allArticles;
-// console.log(allArticles);
-window.addEventListener('scroll', () => {
-  let scrollPosition = window.scrollY + 750;
-  // console.log('=================> ' + window.scrollY);
-
-  allArticles.forEach(article => {
-      if (scrollPosition >= article.offsetTop) {
-        article.classList.add('scaleToOne');
-      }
-  });
-});
-
-// window.addEventListener('load', () => {
-//   let scrollPosition = window.scrollY + 750;
-//   // console.log('=================> ' + window.scrollY);
-
-//   allArticles.forEach(article => {
-//       if (scrollPosition >= article.offsetTop) {
-//         article.classList.add('scaleToOne');
-//       }
-//   });
-// });
-
-
 // APUNTES (esto es solo para tener funciones a mano. Se borra en la versión definitiva):
 // -------
 // https://stackoverflow.com/questions/64546023/run-javascript-function-if-page-load-scroll-and-resize
