@@ -138,7 +138,7 @@ main {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(200%, -52%);    
+    transform: translate(500%, -52%);    
 }
 
 .nuevoEventoZelda.manifiestate {
